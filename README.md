@@ -1,4 +1,4 @@
-# NLP Projects | Natural Language Processing
+# NLP | Natural Language Processing
 
 A collection of Natural Language Processing (NLP) concepts, practical implementations, and machine learning experiments using Python.
 
