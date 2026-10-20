@@ -8,17 +8,19 @@ A collection of hands-on Natural Language Processing (NLP) projects and machine 
 NLP Projects/
 │
 ├── README.md
+├── .gitignore
 │
 ├── NLP Fundamentals/
-│   ├── Text Preprocessing
-│   ├── Text Representation
-│   ├── Word2Vec
-│   ├── POS Tagging
-│   ├── Text Classification
-│   └── Saved Model
+│   ├── Text Preprocessing.ipynb
+│   ├── Text Representation.ipynb
+│   ├── Word2Vec.ipynb
+│   ├── POS Tagging.ipynb
+│   ├── Text Classification.ipynb
+│   └── Saved Model/
 │
 └── Question Similarity Analysis/
-    └── Project files
+    ├── question_similarity_analysis.ipynb
+    └── saved_model/
 ```
 
 *Note: The structure above is illustrative. Actual filenames and subfolders may differ.*
