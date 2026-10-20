@@ -1,18 +1,63 @@
-# NLP | Natural Language Processing
+# NLP Projects | Natural Language Processing
 
-A collection of Natural Language Processing (NLP) concepts, practical implementations, and machine learning experiments using Python.
+A collection of hands-on Natural Language Processing (NLP) projects using Python and Machine Learning. This repository explores text preprocessing, text representation, word embeddings, linguistic analysis, and text classification through practical implementations.
 
-This repository covers text preprocessing, text representation, word embeddings, linguistic analysis, text classification, and feature engineering.
+## 📚 Projects and Topics Covered
 
-## 📚 Topics Covered
+### 1. Text Preprocessing
+- Lowercasing and text normalization
+- HTML and URL removal
+- Punctuation and special character removal
+- Tokenization
+- Stopword removal
+- Stemming and lemmatization
 
-- **Text Preprocessing:** Lowercasing, HTML and URL removal, punctuation removal, tokenization, stopword removal, and lemmatization.
-- **Text Representation:** One-Hot Encoding, Bag of Words (BoW), N-Grams, and TF-IDF.
-- **Word Embeddings:** Word2Vec, CBOW, Skip-Gram, and word similarity.
-- **Linguistic Analysis:** Tokenization and Part-of-Speech (POS) tagging using NLTK.
-- **Text Classification:** Sentiment analysis using Logistic Regression and different text features.
-- **Duplicate Question Detection:** Feature engineering, TF-IDF similarity, cosine similarity, and classification.
-- **Feature Engineering:** Word counts, character counts, common-word ratios, and similarity scores.
+### 2. Text Representation
+- One-Hot Encoding
+- Bag of Words (BoW)
+- N-Grams
+- TF-IDF Vectorization
+
+### 3. Word2Vec
+- Word embeddings
+- Continuous Bag of Words (CBOW)
+- Skip-Gram
+- Word similarity and vector representations
+
+### 4. POS Tagging
+- Tokenization using NLTK
+- Part-of-Speech (POS) tagging
+- Identifying grammatical roles of words
+
+### 5. Text Classification
+- Text feature extraction
+- Sentiment analysis
+- Logistic Regression
+- Model training and evaluation
+
+### 6. Question Similarity Analysis
+A machine learning project that compares two questions and predicts whether they are similar or different.
+
+**Key concepts:**
+- Text preprocessing
+- TF-IDF vectorization
+- Cosine similarity
+- Common word ratio
+- Feature engineering
+- Logistic Regression, Random Forest, and Support Vector Machine (SVM)
+- Train-test splitting and model evaluation
+
+The project compares multiple models on a sample dataset and selects the best-performing model based on test accuracy. Performance may vary depending on the dataset, so larger datasets and further validation are needed for reliable real-world results.
+
+## 🛠️ Technologies Used
+
+- **Language:** Python
+- **Environment:** Jupyter Notebook
+- **Data Handling:** Pandas, NumPy
+- **NLP:** NLTK, Gensim
+- **Machine Learning:** Scikit-learn
+- **Text Processing:** Regular Expressions, BeautifulSoup
+- **Version Control:** Git and GitHub
 
 ## 📂 Repository Structure
 
@@ -22,24 +67,12 @@ NLP/
 ├── Text Preprocessing.ipynb
 ├── Text Representation.ipynb
 ├── Word2Vec.ipynb
-├── Text Classification.ipynb
 ├── POS Tagging.ipynb
-└── Duplicate Question Detection.ipynb
+├── Text Classification.ipynb
+└── Question Similarity Analysis.ipynb
 ```
 
-*Note: The filenames above are illustrative. The actual repository structure may vary.*
-
-## 🛠️ Technologies Used
-
-- Python
-- Jupyter Notebook
-- NumPy
-- Pandas
-- NLTK
-- Scikit-learn
-- Gensim
-- BeautifulSoup
-- Git and GitHub
+*Note: The filenames shown above are examples. Your actual notebook names and folder structure may differ.*
 
 ## 🚀 Getting Started
 
@@ -49,7 +82,7 @@ NLP/
 git clone https://github.com/aman-raj-9/NLP.git
 ```
 
-### 2. Navigate to the project folder
+### 2. Open the project folder
 
 ```bash
 cd NLP
@@ -58,34 +91,37 @@ cd NLP
 ### 3. Install the required libraries
 
 ```bash
-pip install numpy pandas scikit-learn nltk gensim beautifulsoup4
+pip install numpy pandas scikit-learn nltk gensim beautifulsoup4 jupyter
 ```
 
-### 4. Open the project in VS Code
+### 4. Start Jupyter Notebook
 
 ```bash
-code .
+jupyter notebook
 ```
 
-Open a Jupyter Notebook (`.ipynb`) and run its cells in order. Some notebooks may require additional dependencies, datasets, or NLTK resources.
+Alternatively, open the folder in VS Code and run the notebooks using the Jupyter extension.
+
+Some notebooks may require additional dependencies, datasets, or NLTK resources. Install or download them as specified in the relevant notebook.
 
 ## 🎯 Learning Objectives
 
 - Understand fundamental NLP preprocessing techniques.
-- Convert text into numerical features for machine learning.
-- Learn word embeddings and word relationships.
+- Convert text into numerical representations for machine learning.
+- Explore word embeddings and word relationships.
 - Perform linguistic analysis using NLTK.
 - Build and evaluate text classification models.
-- Measure text similarity using different techniques.
-- Practice feature engineering and model evaluation.
+- Compare questions using text similarity techniques.
+- Practice feature engineering and model selection.
+- Understand the basics of training, testing, and evaluating machine learning models.
 
 ## 📈 Future Improvements
 
-- Add more NLP algorithms and practical examples.
-- Explore advanced embeddings and transformer models.
-- Experiment with real-world datasets.
-- Improve model evaluation and documentation.
-- Add new projects as learning progresses.
+- Add more NLP projects and practical examples.
+- Experiment with larger, real-world datasets.
+- Improve model performance through better features and validation.
+- Explore advanced word embeddings and transformer models.
+- Add more evaluation metrics and project documentation.
 
 ## 👨‍💻 Author
 
